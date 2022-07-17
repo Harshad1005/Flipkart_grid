@@ -1,0 +1,6 @@
+<launch>
+    <group ns="bot2">
+        <node name="bot_2" pkg="grid" type="drive_2.py"/>
+        <node name="bot_2_teleop" pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py"/>
+    </group>
+</launch>

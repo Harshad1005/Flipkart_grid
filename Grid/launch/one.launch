@@ -1,0 +1,15 @@
+<launch>
+<node name="driver1" pkg="grid" type="drive_1.py"  />
+<node name="driver2" pkg="grid" type="drive_2.py"  />
+<node name="driver3" pkg="grid" type="drive_3.py"  />
+<node name="driver4" pkg="grid" type="drive_4.py"  />
+
+<!-- <node name="teleop" pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py"  /> -->
+
+<node name="rosserial_server" pkg="rosserial_server" type="socket_node"/>
+
+<!-- <node name="openCv" pkg="grid" type="opencvfile.py"  /> -->
+
+
+
+</launch>
